@@ -1,0 +1,14 @@
+#vamos recuperar estes param na classe Configuration.java
+spring:
+  application:
+    name: springactuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+#nome de sugestão
+springactuator:
+  greeting: "Botafogo"
+  default-value: "Campeão"

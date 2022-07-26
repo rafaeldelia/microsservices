@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "springactuator.greeting",
+    "type": "java.lang.String",
+    "description": "A description for 'springactuator.greeting'"
+  },
+  {
+    "name": "springactuator.default-value",
+    "type": "java.lang.String",
+    "description": "A description for 'springactuator.default-value'"
+  }
+]}
