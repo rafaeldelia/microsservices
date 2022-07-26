@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.arphoenix.microsservices.exception.UnsuportedRuntimeException;
 
 @RestController
+@RequestMapping("/calculator")
 public class CalculatorController {
 
 	@RequestMapping(value = "/sum/{numberOne}/{numberTwo}", method = RequestMethod.GET)
