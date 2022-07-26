@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Saudacao {
+public class Calculator {
 
 	private final long id;
 	private final String content;
