@@ -3,7 +3,17 @@ server:
   port: 8888
 spring:
   application:
-    name: spring-config-server
+    name: 03-spring-config-server
   profiles:
     active:
     - native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rafaeldelia/config-server-spring-cloud.git
+          username: rafaeldelia
+          password: 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
+          default-label: main
+          search-paths:
+          - 'config-server-service*'
