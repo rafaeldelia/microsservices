@@ -10,4 +10,7 @@ public class Startup {
 		SpringApplication.run(Startup.class, args);
 	}
 
+	public static void nada() {
+		System.out.println("");
+	}
 }
